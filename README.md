@@ -1,1 +1,2 @@
 # AlmostTwitter
+A grails project

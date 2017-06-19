@@ -1,0 +1,27 @@
+.msg-follow,
+.msg-following,
+.msg-unfollow{
+    display: none;
+    width:200px;
+    height:50px;
+}
+
+.msg-follow{
+    display: inline;
+}
+
+.following .msg-follow{
+    display: none;
+}
+
+.following .msg-following{
+    display: inline;
+}
+
+.following:not(.wait):hover .msg-following{
+    display: none;
+}
+
+.following:not(.wait):hover .msg-unfollow{
+    display: inline;
+}
